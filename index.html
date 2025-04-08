@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body {
+      font-family: 'Figtree', sans-serif;
+      background-color: hsl(0, 0%, 95%);
+      margin: 0;
+      padding: 0;
+      font-size: 16px;
+      background-color: hsl(47, 88%, 63%);
+    }
+
+    .blog-card {
+      width: 350px;
+      height: 500px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+      margin: auto;
+      padding: 20px;
+
+      /* Define border widths for each side */
+      border-width: 2px 7px 7px 2px; /* Top, Right, Bottom, Left */
+      border-style: solid; /* All sides solid */
+      border-color: black; /* Same color for all sides */
+    }
+
+    .learning {
+      background-color: hsl(47, 88%, 63%);
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 12px;
+      text-align: center;
+      width: fit-content;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="blog-card">
+    <img src="/assets/images/illustration-article.svg" alt="">
+  
+    <b class="learning">Learning</b>
+  
+    <p>Published 21 Dec 2023</p>
+  
+    <h2>HTML & CSS foundations</h2>
+  
+    <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+  
+    <div class="author-identity">
+      <img src="/assets/images/image-avatar.webp" alt="">
+      <b>Greg Hooper</b>
+    </div>
+
+  </div>
+  
+</body>
+</html>
